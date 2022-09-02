@@ -1,0 +1,327 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+
+/*****************************************************************************************************************************************
+******************************************************************************************************************************************
+*****************************************************************************************************************************************/
+
+* li a {
+    text-decoration: none;
+    color: #111;
+}
+
+* li {
+    list-style-type: none;
+}
+
+
+body {
+    background-color: #757b81;
+    text-align: center;
+}
+/*****************************************************************************************************************************************
+******************************************************************************************************************************************
+*****************************************************************************************************************************************/
+/*HEADER*/
+
+header {
+
+}
+
+header div {
+    height: 50px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    background-color: #fff;
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+}
+
+header div nav {
+    float: left;
+}
+
+header div nav h2 {
+    float: left;
+    color: #111;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: callasweet;
+    border-right: 2px solid #111;
+}
+
+header div article {
+    float: left;
+}
+
+header div article ul {
+
+}
+
+header div article ul li {
+    float: left;
+    display: inline-block;
+}
+
+header div article ul li a {
+    line-height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #111;
+    font-size: 28px;
+    font-family: kingsland;
+    display: block;
+}
+
+header div article ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+header div section {
+    float: right;
+}
+
+header div section ul {
+    
+}
+
+header div section ul li {
+    float: right;
+    display: inline-block;
+}
+
+header div section ul li a {
+    line-height: 28px;
+    margin: 10px 0;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #111;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: pornstar academy;
+    display: block;
+    border: 1px dotted #111;
+}
+
+header div section ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+header div section ul li a:focus {
+    color: #fff;
+    background-color: #111;
+    cursor: pointer;
+}
+/*MAIN BODY*/
+/*****************************************************************************************************************************************
+******************************************************************************************************************************************
+*****************************************************************************************************************************************/
+main div {
+    height: calc(100vh - 120px);
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.index-banner {
+    width: calc(100% - 30px);
+    height: calc(100vh - 120px);
+    background-image: url('sos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+main div ul {
+    
+}
+
+main div ul li {
+    float: left;
+    display: inline-block;
+}
+
+main div ul li a {
+    line-height: 50px;
+    margin: 10px 20px;
+    margin-right: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #111;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: pornstar academy;
+    display: block;
+    border: 1px dotted #111;
+}
+
+main div nav {
+    margin: 10px;
+}
+
+main div nav h2 {
+    padding-top: 30px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+    font-family: juiceline;
+    font-weight: 1000px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px 20px;
+    text-shadow: 2px 2px 2px #343d46;
+}
+
+main div section {
+    margin-top: 10px;
+    color: #d86062;
+}
+
+main div article {
+    width: 456px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: left;
+}
+
+main div article:hover {
+    width: 464px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.main-images {
+    float: left;
+    width: 100px; 
+    height: 100px;
+    margin: 0 2px;
+    border: 5px solid #e8ebf4;
+    border-radius: 5px;
+}
+
+.main-images:hover {
+    padding: 0 4px;
+}
+/*****************************************************************************************************************************************
+******************************************************************************************************************************************
+*****************************************************************************************************************************************/
+/*FOOTER*/
+
+footer {
+
+}
+
+footer div {
+    height: 50px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px; 
+}
