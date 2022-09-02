@@ -1,0 +1,242 @@
+body {
+    background-color: #f1f1f1;
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+/*************************************************************************************************************************************
+**************************************************************************************************************************************
+*************************************************************************************************************************************/
+/** Header **/
+
+header div {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    height: calc(100vh - 200px);
+    background-image: url('../img/sos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header div nav {
+    float: left;
+    margin-top: 50px;
+    width: 40%;
+}
+
+header div nav h2 {
+    color: #fff;
+    font-family: cometnegative;
+    text-align: right;
+    font-size: 80px;
+    line-height: 100px;
+    text-shadow: 4px 4px 8px #111;
+    padding: 0 50px;
+    font-weight: 900;
+}
+
+header div article {
+    float: left;
+    width: 60%;
+    margin-top: 50px;
+}
+
+header div article ul {
+    margin-top: calc(71vh - 200px);
+    margin-left: 50px;
+}
+
+header div article ul li {
+    float: left;
+    list-style-type: none;
+}
+
+header div article ul li a {
+    text-transform: capitalize;
+    float: left;
+    color: #fff;
+    font-family: callasweet;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 2px 2px 4px #111;
+    padding: 0 5px;
+    margin: 0 20px;
+    border: 2px dotted #fff;
+    border-radius: 7px;
+}
+
+header div article ul li a:hover {
+    background-color: #7e7e7e;
+    font-weight: 200;
+}
+
+header div article ul li a:focus {
+    background-color: #3a3a3a;
+    font-weight: 400;
+}
+
+/*************************************************************************************************************************************
+**************************************************************************************************************************************
+*************************************************************************************************************************************/
+/** Main **/
+
+main div {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    height: calc(100vh - 190px);
+    background-color: #fff;
+}
+
+main div h2 {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 1000;
+    font-family: kingsland;
+    font-size: 45px;
+    line-height: 55px;
+    text-shadow: 2px 2px 8px #dddddd;
+}
+
+main div h1 {
+    font-family: juiceline;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 8px #dddddd;
+    line-height: 40px;
+    padding: 20px;
+}
+
+/*************************************************************************************************************************************
+**************************************************************************************************************************************
+*************************************************************************************************************************************/
+/** Footer **/
+
+footer div {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    height: 200px;
+    background-image: url('../img/wood.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+footer div nav {
+    float: left;
+    margin-top: 20px;
+    width: 33%;
+}
+
+footer div nav h2 {
+    text-transform: uppercase;
+    font-family: juiceline;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    padding: 0 10px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+footer div nav p {
+    font-family: callasweet;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer div nav p:hover {
+    color: #dddddd;
+}
+
+footer div article {
+    float: left;
+    margin-top: 20px;
+    width: 33%;
+}
+
+footer div article h2 {
+    text-transform: uppercase;
+    font-family: juiceline;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    padding: 0 10px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+footer div article p {
+    font-family: callasweet;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer div article p:hover {
+    color: #dddddd;
+}
+
+footer div section {
+    float: right;
+    margin-top: 20px;
+    width: 25%;
+}
+
+footer div section h2 {
+    text-transform: uppercase;
+    font-family: juiceline;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 2px 2px 8px #111;
+    padding: 0 10px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+footer div section p a {
+    font-family: callasweet;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0 20px;
+}
+
+footer div section p a:hover {
+    color: #dddddd;
+}
+
+/*************************************************************************************************************************************
+**************************************************************************************************************************************
+*************************************************************************************************************************************/
+/** ClASSES **/
+
+.about {
+    font-family: callasweet;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 5 20px;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
