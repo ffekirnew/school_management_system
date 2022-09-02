@@ -6,7 +6,7 @@ if (isset($_SESSION['u_id'])) {
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+	<link rel="stylesheet" type="text/css" href="../indexstyle.css">
 </head>
 <body>
 	<header>
